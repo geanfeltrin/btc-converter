@@ -18,5 +18,11 @@
         "sourceType": "module"
     },
     "rules": {
+      "no-unused-vars": [
+        "error",
+        {
+          "varsIgnorePattern": "should|expect"
+        }
+      ]
     }
 }
